@@ -22,7 +22,7 @@ I build practical AI and full-stack systems, with a current focus on retrieval-a
 
 ## Featured Work
 
-### SecureRAG
+### [SecureRAG](https://github.com/emanster2006-ai/Project-w-emanster)
 
 An evaluation-first RAG platform for financial question answering over SEC filings.
 
@@ -38,9 +38,10 @@ What it includes:
 ## What I Am Working Toward
 
 - Publishing more polished demos and technical writeups.
-- Turning private class and project work into clean public repositories.
+- Turning class and project work into clean public repositories (SecureRAG is now open source).
 - Building AI apps that are measurable, secure, and useful beyond a prototype.
 
 ## Contact
 
 - GitHub: [@emanster2006-ai](https://github.com/emanster2006-ai)
+- Email: emanster2006@gmail.com
