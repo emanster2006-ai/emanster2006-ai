@@ -13,6 +13,7 @@ A social game where friends privately lock predictions before a Fantasy Premier 
 - React and TypeScript frontend; FastAPI backend; PostgreSQL with Alembic migrations.
 - Magic-link authentication, private groups, server-enforced deadlines, and append-only prediction and score records.
 - API and frontend tests, PostgreSQL checks in GitHub Actions, and Docker-based local setup.
+- [Try the deployed app](https://rivalry-court-web.onrender.com) (email sign-in; the free API may take about a minute to wake).
 - Code is currently private. Production end-to-end verification is still in progress.
 
 ### [SkyWatch — Liberty University AI Club](https://github.com/LU-AI-Club/ai-club-skywatch)
@@ -29,8 +30,9 @@ A team project for financial question answering over SEC filing evidence, using 
 
 - **My focus:** frontend, API integration, deployment work, and CI/CD.
 - **Erik's focus:** retrieval, evaluation, and ML work.
-- Backend is on `main`; the Next.js frontend is on [`feat/frontend`](https://github.com/emanster2006-ai/Project-w-emanster/tree/feat/frontend).
-- Evaluation infrastructure is implemented; comparative benchmark results have not yet been published. CI and integration testing are being improved.
+- Backend and Next.js frontend are on [`main`](https://github.com/emanster2006-ai/Project-w-emanster/tree/main/frontend).
+- 36 backend unit/integration tests, frontend lint/build, and Python lint/format checks passed in the portfolio update.
+- Evaluation infrastructure is implemented; comparative benchmark results have not yet been published. Live evaluation requires a separate provider-backed run.
 
 ## Tools I use
 
