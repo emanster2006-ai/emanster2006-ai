@@ -1,0 +1,9 @@
+{
+  "type": "actual React UI with substituted auth/API responses",
+  "production_verified": false,
+  "real_users": false,
+  "desktop": "1280x1050",
+  "mobile": "390x844",
+  "console_errors": [],
+  "mobile_horizontal_overflow": false
+}
