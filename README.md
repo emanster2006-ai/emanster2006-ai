@@ -21,9 +21,11 @@ A social game where friends privately lock predictions before a Fantasy Premier 
 
 A school team project building aircraft detectors from ADS-B observations. **My contribution is the proximity geometry and detector integration**, not the entire platform.
 
-- [Merged PR #9: proximity geometry](https://github.com/LU-AI-Club/ai-club-skywatch/pull/9) — local coordinate projection, velocity conversion, closest-approach time, and predicted separation.
-- [Merged PR #17: detector integration](https://github.com/LU-AI-Club/ai-club-skywatch/pull/17) — connect alignment, pair selection, geometry, and rules; retain one detection per aircraft pair.
-- These PRs were merged into the team's `Proximity_Detector` branch. The project scaffold, shared contracts, rule implementation, and other detector stages are team work.
+- 6 merged PRs: [#9 proximity geometry](https://github.com/LU-AI-Club/ai-club-skywatch/pull/9) (local coordinate projection, velocity conversion, closest-approach time, predicted separation) and [#17 detector integration](https://github.com/LU-AI-Club/ai-club-skywatch/pull/17) (connect alignment, pair selection, geometry, and rules; one detection per aircraft pair).
+- Tuning from root-cause analyses on a 1,128-detection Lynchburg replay: [#64](https://github.com/LU-AI-Club/ai-club-skywatch/pull/64) drops pairs more than 10 nm apart (1,128 to 898) and [#65](https://github.com/LU-AI-Club/ai-club-skywatch/pull/65) lowers the low-severity vertical limit from 1000 to 900 ft (1,128 to 869).
+- [#88](https://github.com/LU-AI-Club/ai-club-skywatch/pull/88) analyzes where straight-line prediction breaks down near KLYH; [#96](https://github.com/LU-AI-Club/ai-club-skywatch/pull/96) adds a `detector_runs` table with start/finish heartbeats.
+- A React/TypeScript proximity dashboard page is open for review ([#143](https://github.com/LU-AI-Club/ai-club-skywatch/pull/143)).
+- The project scaffold, shared contracts, and the other detectors are team work.
 
 ### [SecureRAG](https://github.com/emanster2006-ai/Project-w-emanster)
 
