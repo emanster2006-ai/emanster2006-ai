@@ -15,7 +15,7 @@ A social game where friends privately lock predictions before a Fantasy Premier 
 - API and frontend tests, PostgreSQL checks in GitHub Actions, and Docker-based local setup.
 - [Try the deployed app](https://rivalry-court-web.onrender.com) (email sign-in; the free API may take about a minute to wake).
 - [Public case study: screenshots, architecture, and a 60-second walkthrough](projects/rivalry-court.md).
-- Code is currently private. Production end-to-end verification is still in progress.
+- [Source code](https://github.com/emanster2006-ai/rivalry-court). Production end-to-end verification is still in progress.
 
 ### [SkyWatch — Liberty University AI Club](https://github.com/LU-AI-Club/ai-club-skywatch)
 
@@ -31,12 +31,11 @@ A school team project building aircraft detectors from ADS-B observations. **My 
 
 A team project for financial question answering over SEC filing evidence, using hybrid retrieval, reranking, structured generation, and experimental security controls.
 
-- **My focus:** frontend, API integration, deployment work, and CI/CD.
-- **Erik's focus:** retrieval, evaluation, and ML work.
-- Backend and Next.js frontend are on [`main`](https://github.com/emanster2006-ai/Project-w-emanster/tree/main/frontend).
-- 44 backend unit/integration tests, frontend lint/build, and Python lint/format checks passed in the portfolio update.
-- [Case study and evidence limits](projects/secure-rag.md).
-- Evaluation infrastructure is implemented; comparative benchmark results have not yet been published. Live evaluation requires a separate provider-backed run.
+- **My focus:** the Next.js frontend, API integration, CI/CD, API hardening, and the retrieval benchmark and improvements.
+- **Erik's focus:** the original scaffold, evaluation framework, and first retrieval pipeline.
+- Raised top-5 retrieval recall from 70% to 94% (top-8: 96%) on 150 FinanceBench questions with company and fiscal-period chunk headers and fiscal-year-aware reranking. The benchmark runs without API keys (`make retrieval-bench`); [results and rejected experiments](https://github.com/emanster2006-ai/Project-w-emanster/blob/main/docs/BENCHMARKS.md).
+- 106 backend, 12 frontend, and 3 browser (Playwright) tests in CI, plus a dependency audit. [Screenshots of real answers](https://github.com/emanster2006-ai/Project-w-emanster#demo).
+- End-to-end answer accuracy has not been measured yet. [Case study and evidence limits](projects/secure-rag.md).
 
 ## Tools I use
 

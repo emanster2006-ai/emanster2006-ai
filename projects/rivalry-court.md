@@ -4,7 +4,7 @@
 
 [Try the deployed app](https://rivalry-court-web.onrender.com) · [60-second captioned walkthrough](../assets/rivalry-court/walkthrough.mp4) · [Mobile screenshot](../assets/rivalry-court/mobile.png)
 
-The free API may take about a minute to wake. Live sign-in uses an email magic link, and groups require an invite. Source is private; this page lets you inspect the product and engineering choices without an account.
+The free API may take about a minute to wake. Live sign-in uses an email magic link, and groups require an invite. The [source code](https://github.com/emanster2006-ai/rivalry-court) is public; this page lets you inspect the product and engineering choices without an account.
 
 ![Five-scene preview of Rivalry Court, labeled synthetic UI demo](../assets/rivalry-court/preview.gif)
 
